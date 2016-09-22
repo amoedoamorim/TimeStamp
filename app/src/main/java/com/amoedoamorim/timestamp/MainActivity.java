@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        String url = "http://lohanband.com/timestamp/log.php?add=" + arg;
+        String url = "http://your-service" + arg;
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
